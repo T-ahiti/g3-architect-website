@@ -118,6 +118,12 @@ main{
 }
 
 /* facts section */
+.fact-title{
+    margin-bottom: 0px;
+}
+.fact-description{
+    margin-bottom:80px;
+}
 .facts-card-container{
     display: flex;
     justify-content: space-around;
@@ -126,13 +132,19 @@ main{
     border-radius: 8px;
     border: 1px solid  rgba(255, 144, 14, 1);
     text-align: center;
+    padding: 30px;
 }
 .facts-card-container .card-title{
     font-weight: 600;
+    color: #727272;
+    font-size: 1.25rem;
+    margin-top: 5px;
 }
 .facts-card-container .card-stats{
     font-size: 2.8rem;
     color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -144,7 +156,7 @@ main{
         padding: 20px;
     }
 
-    nav, .team-container{
+    nav, .team-container, .facts-card-container{
         flex-direction: column;
     }
 
@@ -156,6 +168,12 @@ main{
 
     .team-container{
         margin-left: 0px;
+    }
+
+    .facts-card-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
     }
     /* .team-container{ */
         /* margin-left: 240px; */
