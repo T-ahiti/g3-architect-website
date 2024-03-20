@@ -152,7 +152,16 @@ main{
     text-align: center;
 }
 .sponsors-img-container{
+    margin-top: 50px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.sponsors-img-container img{
+    width: 165px;
+
 }
 /* responsive styles */
 
@@ -162,7 +171,7 @@ main{
         padding: 20px;
     }
 
-    nav, .team-container, .facts-card-container{
+    nav, .team-container, .facts-card-container, .sponsors-img-container{
         flex-direction: column;
     }
 
@@ -188,7 +197,7 @@ main{
 
 /* tablet devices */
 @media screen and (min-width:576px) and (max-width:960px) {
-    nav, .team-container{
+    nav, .team-container, .sponsors-img-container{
         flex-direction: column;
     }
 
