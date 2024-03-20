@@ -220,7 +220,7 @@ main{
         padding: 20px;
     }
 
-    nav, .team-container, .facts-card-container, .sponsors-img-container{
+    nav, .team-container, .facts-card-container, .sponsors-img-container, .features{
         flex-direction: column;
     }
 
@@ -232,6 +232,16 @@ main{
 
     .team-container{
         margin-left: 0px;
+    }
+
+    .feature-img img{
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .ten-years-batch{
+        max-width: 300px;
+        position: static;
     }
 
     .facts-card-container{
@@ -246,7 +256,7 @@ main{
 
 /* tablet devices */
 @media screen and (min-width:576px) and (max-width:960px) {
-    nav, .team-container, .sponsors-img-container{
+    nav, .team-container, .sponsors-img-container, .features{
         flex-direction: column;
     }
 
