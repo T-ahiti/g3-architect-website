@@ -211,6 +211,21 @@ main{
 
 }
 
+/* footer section */
+footer{
+    height: 100px;
+    background: rgba(255, 244, 231, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.footer-text{
+    font-size: 20px;
+    color: rgba(66, 66, 66, 1);
+}
 
 /* responsive styles */
 
