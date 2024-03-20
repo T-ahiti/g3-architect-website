@@ -65,7 +65,7 @@ nav li a{
     padding: 20px 25px;
     font-size: 1.25rem;
     color: white;
-  
+    font-weight: 600;
     cursor: pointer;
     border: none;
 }
@@ -104,9 +104,10 @@ main{
 .team-container{
     display: flex;
     align-items: center;
-    margin-left: 240px;
-    margin-right: 140px;
-    gap: 30px;
+    margin-left: 100px;
+    margin-top: 90px;
+    /* margin-right: 140px; */
+    gap: 70px;
 }
 
 .teams-img-container{
@@ -117,6 +118,39 @@ main{
     width: 708px;
 }
 
+.img{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
 .team-text-container{
 
+}
+
+.gray{
+    color: #727272;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.black{
+    font-size:  50px;
+    font-weight: 700;
+}
+
+.orange-text{
+    color: rgba(255, 144, 14, 1);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .team-container{
+        flex-direction: column;
+    }
+    
+    /* .teams-img-container{ */
+        /* width: 400px; */
+    /* } */
 }
