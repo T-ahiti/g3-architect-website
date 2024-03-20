@@ -94,3 +94,29 @@ nav li a{
     }
 
 }
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 140px;
+    gap: 30px;
+}
+
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    height: 708px;
+    width: 708px;
+}
+
+.team-text-container{
+
+}
