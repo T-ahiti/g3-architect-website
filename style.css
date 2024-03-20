@@ -151,7 +151,9 @@ main{
 .sponsors{
     text-align: center;
 }
-
+.sponsors-img-container{
+    display: flex;
+}
 /* responsive styles */
 
 /* mobile devices */
