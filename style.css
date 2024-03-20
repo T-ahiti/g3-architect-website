@@ -99,9 +99,6 @@ main{
     margin-bottom: 15px;
 }
 
-.team-text-container{
-
-}
 
 .gray{
     color: #727272;
@@ -119,6 +116,25 @@ main{
     font-size: 50px;
     font-weight: 700;
 }
+
+/* facts section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid  rgba(255, 144, 14, 1);
+    text-align: center;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+}
+
 
 /* responsive styles */
 
